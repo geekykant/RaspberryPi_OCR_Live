@@ -10,6 +10,23 @@ For OCR purposes we can use either tesseract (offline) or ocr.space (online api)
 - piCamera
 - socketserver, http
 
+## How to start 
+- Go to terminal and connect to RaspberryPi via SSH
+
+`bash
+ssh pi@raspberrypi.local
+`
+- Run the python code for hosting the OCR server (port 8000)
+
+`bash
+python3 rpi_camera_surveillance_system.py
+`
+- To get the 'hoo.mp3' Text-To-Speech-File directly from server, we are doing this jugaad. We run another python server at different port 8888
+
+`bash
+python -m SimpleHTTPServer 8888
+`
+
 ## Screenshots
 
 <img src="https://github.com/geekykant/RaspberryPi_OCR_Live/blob/master/screens/image6.jpeg?raw=true"></th>
