@@ -9,3 +9,15 @@ For OCR purposes we can use either tesseract (offline) or ocr.space (online api)
 - Requests (online)
 - piCamera
 - socketserver, http
+
+## Screenshots
+
+<img src="https://github.com/geekykant/RaspberryPi_OCR_Live/blob/master/screens/image6.jpeg?raw=true"></th>
+
+<table>
+  <th>
+<img height="50%" src="https://github.com/geekykant/RaspberryPi_OCR_Live/blob/master/screens/image2.jpeg?raw=true"></th>
+
+<th>
+<img height="50%" src="https://github.com/geekykant/RaspberryPi_OCR_Live/blob/master/screens/image4.jpeg?raw=true"></th>
+</table>
